@@ -1,4 +1,8 @@
-﻿* 8c0d403 (HEAD -> feature/diagramas-uml-asii-08, origin/feature/diagramas-uml-asii-08) docs: agregar declaración de uso de inteligencia artificial
+* d90b404 (HEAD -> feature/diagramas-uml-asii-08, origin/feature/diagramas-uml-asii-08) docs(documento): agregar informe final UML en Word y PDF
+* 3324526 docs(documento): agregar portada y contenido del informe UML
+* 12ee072 docs(defensa): agregar gu├¡a para exposici├│n oral
+* 5d666ed docs(evidencia): agregar historial estructura y referencia de Git
+* 8c0d403 docs: agregar declaraci├│n de uso de inteligencia artificial
 * b1cb94e docs(trazabilidad): agregar matriz y completar manejo de notificaciones
 * a38831f docs(uml): agregar diagrama de secuencia ASII-08
 * cc3b9c5 docs(uml): agregar diagrama de actividad ASII-08
