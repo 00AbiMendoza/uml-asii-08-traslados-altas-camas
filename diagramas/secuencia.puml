@@ -82,6 +82,13 @@ else Acceso válido
         else Operación correcta
           Modulo -> BD: confirmarTransacción()
           Modulo -> Notificaciones: notificarTraslado()
+          alt Notificación enviada
+            Notificaciones --> Modulo: envío confirmado
+          else Fallo de notificación
+            Notificaciones --> Modulo: error de envío
+            Modulo -> Auditoria: registrarFalloNotificación()
+            Modulo -> Notificaciones: programarReintento()
+          end
           Modulo --> UI: Traslado registrado
         end
         UI --> Usuario: Mostrar resultado
@@ -113,6 +120,13 @@ else Acceso válido
         else Operación correcta
           Modulo -> BD: confirmarTransacción()
           Modulo -> Notificaciones: notificarAlta()
+          alt Notificación enviada
+            Notificaciones --> Modulo: envío confirmado
+          else Fallo de notificación
+            Notificaciones --> Modulo: error de envío
+            Modulo -> Auditoria: registrarFalloNotificación()
+            Modulo -> Notificaciones: programarReintento()
+          end
           Modulo --> UI: Alta registrada
         end
         UI --> Usuario: Mostrar resultado
@@ -138,6 +152,13 @@ else Confirmación válida
   Modulo -> BD: cambiarLimpiezaADisponible()
   Modulo -> Auditoria: registrarSanitización()
   Modulo -> Notificaciones: notificarCamaDisponible()
+  alt Notificación enviada
+    Notificaciones --> Modulo: envío confirmado
+  else Fallo de notificación
+    Notificaciones --> Modulo: error de envío
+    Modulo -> Auditoria: registrarFalloNotificación()
+    Modulo -> Notificaciones: programarReintento()
+  end
   Modulo --> UI: Sanitización confirmada
   UI --> Sanitizacion: Mostrar cama disponible
 end
