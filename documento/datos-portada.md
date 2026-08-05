@@ -1,0 +1,12 @@
+# Datos de portada
+
+- **Universidad:** Universidad Mariano Gálvez de Guatemala
+- **Facultad:** Facultad de Ingeniería en Sistemas de Información y Ciencias de la Computación
+- **Curso:** Análisis de Sistemas II
+- **Docente:** Ing. Richard David Ortíz Sasvin
+- **Título:** Diagramas UML del módulo ASII-08 — Traslados, altas y liberación de camas
+- **Estudiante:** Esaú Abimael de la Cruz Mendoza
+- **Carné:** 1890-21-13279
+- **Correo:** edelacruz@miumg.edu.gt
+- **Fecha de entrega:** 07/08/2026
+- **Lugar:** Guastatoya, El Progreso, Guatemala
