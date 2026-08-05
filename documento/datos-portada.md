@@ -10,3 +10,6 @@
 - **Correo:** edelacruz@miumg.edu.gt
 - **Fecha de entrega:** 07/08/2026
 - **Lugar:** Guastatoya, El Progreso, Guatemala
+- **Repositorio:** https://github.com/00AbiMendoza/uml-asii-08-traslados-altas-camas
+- **Rama:** feature/diagramas-uml-asii-08
+- **Etiqueta de entrega:** entrega-uml-asii-08-v1.0
