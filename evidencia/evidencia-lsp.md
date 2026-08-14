@@ -206,3 +206,13 @@ Al finalizar la entrega se incorporarán en esta sección:
 - enlace verificable al commit;
 - árbol final de archivos;
 - confirmación de publicación de la rama en GitHub.
+## 13. Referencia del informe final
+
+- **Commit del informe final:** `b330e05ef6be35f6551a7d10d99308a65197a756`
+- **Enlace al commit:** https://github.com/00AbiMendoza/uml-asii-08-traslados-altas-camas/commit/b330e05ef6be35f6551a7d10d99308a65197a756
+- **Rama:** `feature/lsp-traslados-altas-liberacion-camas`
+- **Etiqueta prevista para el cierre:** `entrega-lsp-asii-08-v1.0`
+
+El commit indicado contiene el informe final en formato DOCX, su fuente de contenido, los datos de portada y el generador específico utilizado para producirlo.
+
+La etiqueta final se aplicará al commit de cierre de la entrega, después de completar esta evidencia y verificar el árbol final del repositorio.
