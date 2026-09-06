@@ -185,3 +185,31 @@ El estudiante se compromete a poder explicar:
 - por qué el consumidor ya no necesita identificar el subtipo para corregir su comportamiento.
 
 También deberá poder realizar una modificación sencilla sobre los artefactos técnicos durante la defensa si fuera requerida.
+
+---
+
+# Ampliación de declaración de IA — Formato de documentos y publicación del repositorio (Claude Code)
+
+## 16. Identificación de la nueva herramienta y contexto
+
+- **Herramienta:** Claude Code, asistente de inteligencia artificial de Anthropic con acceso directo a terminal y archivos, ejecutado localmente bajo supervisión y autorización del estudiante.
+- **Contexto:** continuación del trabajo descrito en las secciones anteriores (realizado originalmente con ChatGPT), usado a partir de septiembre de 2026 para estandarizar el formato de los documentos del proyecto y ordenar el repositorio para su entrega pública.
+- Esta sección se agrega el 2026-09-06, en el mismo momento en que se realizaron los cambios que describe, para que la declaración quede al día con el historial de commits.
+
+## 17. Diferencia importante respecto al uso anterior
+
+A diferencia de ChatGPT (usado mediante copiar y pegar instrucciones y comandos), Claude Code ejecuta directamente comandos de terminal y edita archivos cuando el estudiante lo autoriza explícitamente en cada paso. En este repositorio, Claude Code:
+
+- Reestructuró y actualizó el formato de `documento/InformeLSP.docx/pdf` y `documento/InformeUML.docx/pdf` (portada, organización de secciones) siguiendo el estándar de formato acordado para el proyecto, manteniendo el contenido técnico ya desarrollado previamente (diagramas, análisis LSP, requisitos, matrices).
+- Ejecutó, con autorización explícita del estudiante en cada paso, los comandos de Git para: registrar (`commit`) el reemplazo de los informes, fusionar la rama de trabajo a `main`, publicar (`push`) ambas ramas en GitHub, y cambiar la visibilidad del repositorio de privado a público.
+
+## 18. Validación y autorización del estudiante
+
+- El estudiante revisó el estado del repositorio y el plan propuesto (qué se iba a commitear, fusionar, publicar y hacer público) antes de autorizar cada acción.
+- El estudiante autorizó explícitamente, en el momento, la creación del commit, la fusión a `main`, la publicación en GitHub y el cambio de visibilidad del repositorio.
+- El estudiante verificó el resultado final en GitHub: estructura de archivos, rama `main` actualizada y visibilidad pública.
+- El contenido técnico de los informes (diagramas, análisis LSP, matrices, evidencia) no fue generado por Claude Code en esta etapa — ya existía del trabajo previo; el cambio fue de formato de los documentos y de organización del repositorio.
+
+## 19. Responsabilidad académica
+
+El estudiante mantiene la responsabilidad de explicar y defender el contenido técnico del módulo ASII-08 (diagramas UML, análisis LSP, decisiones de diseño), independientemente de la herramienta utilizada para dar formato a los documentos o para las operaciones de Git.
